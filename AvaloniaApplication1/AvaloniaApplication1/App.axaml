@@ -1,0 +1,15 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:AvaloniaApplication1"
+						 xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
+             x:Class="AvaloniaApplication1.App">
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+	<Application.Styles>
+		<themes:MaterialThemeBase />
+		<StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" />
+	</Application.Styles>
+	<Application.Resources />
+</Application>
